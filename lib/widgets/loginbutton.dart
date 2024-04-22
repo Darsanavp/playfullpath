@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:playfullpath/parent/parenthome.dart';
-import 'package:playfullpath/parent/parentlogin.dart';
 import 'package:playfullpath/teacher/home.dart';
-import 'package:playfullpath/teacher/teacherlogin.dart';
 
 
 class ElevatedLoginButton extends StatelessWidget {
@@ -13,8 +10,8 @@ class ElevatedLoginButton extends StatelessWidget {
     return SizedBox(width:250,
       child: ElevatedButton(
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
-          // Add your login logic here
+         Navigator.push(context, MaterialPageRoute(builder: (context)=>teacherlogin));
+        //  Add your login logic here
           
         },
         child: Text(

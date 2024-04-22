@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:playfullpath/parent/parenthome.dart';
 import 'package:playfullpath/teacher/home.dart';
 import 'package:playfullpath/widgets/otptextfield.dart';
 import 'package:playfullpath/widgets/loginbutton.dart';
@@ -40,7 +41,7 @@ class parent extends StatelessWidget {
             children: [
               Image.asset("asset/images/Ellipse 5.png"),
               SizedBox(height: 30,),
-              Text("Login as a parentttt",style: TextStyle(fontSize: 20,color: Colors.white),),
+              Text("Login as a parent",style: TextStyle(fontSize: 20,color: Colors.white),),
               SizedBox(height: 30,),
               OTPTextField(),
               Row(children: [
@@ -50,7 +51,7 @@ class parent extends StatelessWidget {
                 
               ],),
               SizedBox(height: 20,),
-              ElevatedLoginButton(teacherlogin: Home(),)
+              ElevatedLoginButton(teacherlogin: home2(),)
             ],
           ),
 
